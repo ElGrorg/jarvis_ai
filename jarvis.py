@@ -73,7 +73,7 @@ client = OpenAI(
 def run_jarvis():
 
     # Start Recording
-    print("Press 'esc' to start recording.")
+    print("Press 'esc' to start recording. Press ctrl+C to quit.")
     while True:
         if keyboard.is_pressed('esc'):
             break
@@ -90,7 +90,7 @@ def run_jarvis():
     # Play Answer
     playsound("speech.mp3")
 
-print("Jarvis is online. Press ctrl+c to quit.")
+print("Jarvis is online. Press ctrl+C to quit.")
 try:
     while True:
         val = ""
