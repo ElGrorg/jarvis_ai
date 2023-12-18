@@ -8,7 +8,7 @@ output.wav
 speech.mp3
 
 # Saved memory
-/conversation_history/*
+/conversation_history/memory*
 
 # .DS_Store
 **/.DS_Store

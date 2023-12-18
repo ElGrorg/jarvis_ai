@@ -16,7 +16,8 @@ Run the command `python3 jarvis.py`
 - To end your recording, press **"esc"** again
 - Jarvis will provide a response within 15 seconds, delay depends on length of question and memory
 - To quit the program, press **"ctrl+C"**
-- Message history is stored in the "conversation_history" directory
+- Message history is stored in the `/conversation_history/` directory
+    - To view an example message history, see `/conversation_history/example_message/example_message.csv`
 
 ## Comments
 - This program currently runs via the openai API, which costs money.
