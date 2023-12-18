@@ -1,0 +1,17 @@
+# Environment Variables
+.env
+
+# Spoken Question
+output.wav
+
+# Output from Speech to Text
+speech.mp3
+
+# Saved memory
+/conversation_history/*
+
+# .DS_Store
+**/.DS_Store
+
+# Pycache
+**/__pycache__/*
