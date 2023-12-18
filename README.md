@@ -12,10 +12,11 @@ Conversational AI Program similar to Jarvis from MCU
 ## Running the Program
 This program will run continuously until ended
 Run the command `sudo python3 jarvis.py`
-    - Important to note: We use the `sudo` attribute because the program utilizes the keyboard library, which essentially allows the program to view keystrokes. 
-    - When you first run the program, it may fail and prompt you to update your computer accessibility settings.
-    - You may also be prompted to allow microphone access
-    - There is no malicious code to worry about but I recommend always previewing the code prior to running it on your computer if you are concerned
+- Important to note: We use the `sudo` attribute because the program utilizes the keyboard library, which essentially allows the program to view keystrokes. 
+- When you first run the program, it may fail and prompt you to update your computer accessibility settings.
+- You may also be prompted to allow microphone access
+- There is no malicious code to worry about but I recommend always previewing the code prior to running it on your computer if you are concerned
+
 
 - To record your message to Jarvis, press **"esc"** when prompted
 - To end your recording, press **"esc"** again
