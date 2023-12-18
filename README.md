@@ -11,7 +11,7 @@ Conversational AI Program similar to Jarvis from MCU
     `OPENAI_API_KEY="Your Key Here"`
 ## Running the Program
 This program will run continuously until ended
-Run the command `python3 jarvis.py`
+Run the command `sudo python3 jarvis.py`
 - To record your message to Jarvis, press **"esc"** when prompted
 - To end your recording, press **"esc"** again
 - Jarvis will provide a response within 15 seconds, delay depends on length of question and memory
