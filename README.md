@@ -5,7 +5,7 @@ Conversational AI Program similar to Jarvis from MCU
 
 ## Installation
 1. Download the zip file
-2. Install necessary packages
+2. Install necessary packages using `pip install -r requirements.txt`
 3. Create a `.env` file
     - Inside the `.env` file, type:
     `OPENAI_API_KEY="Your Key Here"`
