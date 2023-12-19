@@ -38,7 +38,7 @@ def chat_answer(question, message_history):
     response = client.chat.completions.create(
         model = "gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "Your name is Jarvis. You are a artificial intelligence assistant, very similar to the Jarvis from Iron Man. You will respond to questions in short sentences"},
+            {"role": "system", "content": "Your name is Jarvis. You are a artificial intelligence assistant, very similar to the Jarvis from Iron Man. You will respond to questions in short detailed sentences"},
             {"role": "system", "content": f"Here is our conversation history, in 'question: answer' format: {message_history} The last key value in the dictionary is the most recent question you asked."},
             {"role": "assistant", "content": question}
         ],
@@ -63,15 +63,12 @@ def text_to_speech(text):
 #1 Record audio
 load_dotenv()
 message_history = {}
-
 api_key = os.environ.get("OPENAI_API_KEY")
-
 client = OpenAI(
     api_key=api_key
 )
 
 def run_jarvis():
-
     # Start Recording
     print("Press 'esc' to start recording. Press ctrl+C to quit.")
     while True:
